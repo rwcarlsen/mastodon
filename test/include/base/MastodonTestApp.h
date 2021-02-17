@@ -1,9 +1,9 @@
 #ifndef MASTODONTESTAPP_H
 #define MASTODONTESTAPP_H
 
-#include "MooseApp.h"
+#include "MastodonApp.h"
 
-class MastodonTestApp : public MooseApp
+class MastodonTestApp : public MastodonApp
 {
 public:
   MastodonTestApp(InputParameters parameters);

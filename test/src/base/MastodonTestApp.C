@@ -12,7 +12,7 @@ MastodonTestApp::validParams()
   return params;
 }
 
-MastodonTestApp::MastodonTestApp(InputParameters parameters) : MooseApp(parameters)
+MastodonTestApp::MastodonTestApp(InputParameters parameters) : MastodonApp(parameters)
 {
   MastodonTestApp::registerAll(
       _factory, _action_factory, _syntax, getParam<bool>("allow_test_objects"));
